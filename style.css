@@ -9,12 +9,13 @@ body {
     color: #333;
 }
 
-header {
+#navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #FA812F;
-    padding: 10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
     color: white;
     position: fixed;
     top: 0;
@@ -23,9 +24,16 @@ header {
     z-index: 1000;
 }
 
-header .logo {
+#navbar .logo {
+    margin: 10px 15px;
+}
+
+#navbar .logo a{
+    font-size: 26px;
+    font-weight: bold;
     height: 50px;
-    font-size:  medium;
+    text-decoration: none;
+    color: white;
 }
 
 #nav-bar {
@@ -41,74 +49,79 @@ header .logo {
 #nav-bar a {
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    padding: 8px;
+    font-size: 22px;
     transition: font-size 0.35s ease-in-out;
     font-weight: bold;
 }
 
 #nav-bar a:hover {
-    font-size: 18px;
+    font-size: 20px;
+    background-color: #be550f7d;
     text-decoration: underline;
 }
 
 
 .menu-icon {
     display: none;
-    font-size: 28px;
+    padding-right: 20px;
+    font-size: 30px;
     cursor: pointer;
 }
 
-
-.small-nav {
-    display: none;
-    position: absolute;
-    top: 60px;
-    right: 10px;
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 10px;
-    border-radius: 8px;
-    text-align: left;
-    width: 150px;
-}
-
-.small-nav.active {
-    display: block;
-}
-
-.small-nav a {
-    display: block;
-    color: white;
-    padding: 8px 10px;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.small-nav a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 4px;
-}
-
 @media screen and (max-width: 768px) {
-    #nav-bar {
-        display: none;
+    .menu-icon {
+        display: inline-block;
     }
 
-    .menu-icon {
-        display: block;
+    #navbar #nav-bar {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: white;
+        width: 250px;
+        height: 100vh;
+        transition: right 0.3s ease;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 60px;
+    }
+
+    #navbar #nav-bar.active {
+        right: 0;
+    }
+
+    #nav-bar li {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #nav-bar a {
+        color: #FA812F;
+        margin-left: 30px;
+        padding: 15px;
+        font-size: 18px;
+        text-align: left;
     }
 }
 
 /* about brew section */
 .about-brew {
+    height: 700px;
     background-color: #FA812F;
-    padding: 50px 20px;
+    padding: 40px 20px;
     text-align: center;
+    margin-top: 100px;
+}
+
+.about-brew > .container {
+    padding: 25px 15px 15px 15px;
 }
 
 .about-brew h2 {
     color: #fff;
     font-size: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .about-brew p {

@@ -1,6 +1,15 @@
-function toggleSmallNav() {
-    document.getElementById("smallNav").classList.toggle("active");
+const navBar = document.querySelector('#nav-bar');
+const menuIcon = document.querySelector('.menu-icon');
+
+menuIcon.onclick = () => {
+    navBar.classList.toggle('active');
 }
+
+document.addEventListener('click', function (e) {
+  if (!menuIcon.contains(e.target) && !navBar.contains(e.target)) {
+    navBar.classList.remove('active');
+  }
+});
 
 function changeReview() {
     const radios = document.querySelectorAll('input[name="position"]');
