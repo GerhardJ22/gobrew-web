@@ -1,0 +1,200 @@
+[
+    {
+        "id": "a0a230f6-17b2-4460-8eca-61e57be53ed5",
+        "name": "9 White Deer Brewery",
+        "address": "Ballymakeera",
+        "city": "Macroom",
+        "country": "Ireland",
+        "phone": "35302627110",
+        "website_url": "http://www.9whitedeer.ie/",
+        "image": "img/9-white-deer-logo.svg",
+        "street": "Ballymakeera"
+    },
+    {
+        "id": "6b42d56c-67bb-47e1-b856-01d87b414a14",
+        "name": "Ballykilcavan Brewing Company",
+        "address": "Ballykilcavan",
+        "city": "Stradbally",
+        "country": "Ireland",
+        "phone": null,
+        "website_url": "https://www.ballykilcavan.com/",
+        "image": "img/ballykilcavan.jpg",
+        "street": "Unnamed Street"
+    },
+    {
+        "id": "73174f3a-40c5-49c4-8394-1a913831f14d",
+        "name": "Black Donkey Brewing",
+        "address": "Srah Road",
+        "city": "Ballinlough",
+        "country": "Ireland",
+        "phone": null,
+        "website_url": "http://blackdonkeybeer.com/",
+        "image": "img/blackdonkey.webp",
+        "street": "Srah Road"
+    },
+    {
+        "id": "4954a924-9efc-45c1-87c7-d931b7992bcb",
+        "name": "Blacks Brewery",
+        "address": "Farm Lane",
+        "city": "Kinsale",
+        "country": "Ireland",
+        "phone": "353873881074",
+        "website_url": "https://www.blacksbrewery.com/",
+        "image": "img/blacks.svg",
+        "street": "Farm Lane"
+    },
+    {
+        "id": "30077396-1359-483b-b4a5-e015ac0f60e2",
+        "name": "Bridewell Brewery",
+        "address": "Bridewell Lane",
+        "city": "Clifden",
+        "country": "Ireland",
+        "phone": "353871279346",
+        "website_url": "https://www.bridewellbrewery.ie/",
+        "image": "img/BB logo small for web.avif",
+        "street": "Bridewell Lane"
+    },
+    {
+        "id": "63969ec8-b557-4c71-b993-ad00c99ab70e",
+        "name": "360 Degree Brewing Company",
+        "address": "Bluebell Business Eimage",
+        "city": "Sheffield Park",
+        "country": "England",
+        "phone": "1825722375",
+        "website_url": "https://www.360degreebrewing.com/",
+        "image": "img/360.svg",
+        "street": "Bluebell Business Eimage"
+    },
+    {
+        "id": "98b6e0ab-22ba-4864-80b0-a967ca61e536",
+        "name": "Abyss Brewing Ltd",
+        "address": "Palehouse Common",
+        "city": "Uckfield",
+        "country": "England",
+        "phone": "1825840561",
+        "website_url": "https://abyssbrewing.co.uk/",
+        "image": "img/ABYSS_LOGOTYPE_BREWING_560x.avif",
+        "street": "Palehouse Common"
+    },
+    {
+        "id": "6f83ab76-9ebd-4b2c-a290-effaa2dca8b9",
+        "name": "Arundel Brewery Ltd",
+        "address": "Lyminster Road",
+        "city": "Arundel",
+        "country": "England",
+        "phone": "1903733111",
+        "website_url": "https://www.arundelbrewery.co.uk/",
+        "image": "img/arundelbrewery.avif",
+        "street": "Lyminster Road"
+    },
+    {
+        "id": "ef48afa5-9ac1-439c-851d-0fb04b43786f",
+        "name": "Battle Brewery",
+        "address": "North Trade Road",
+        "city": "Battle",
+        "country": "England",
+        "phone": "1424772838",
+        "website_url": "http://battlebrewery.co.uk/",
+        "image": "img/battlebrewery.svg",
+        "street": "North Trade Road"
+    },
+    {
+        "id": "639813cf-a5a1-4209-8a21-6bb8fc99589f",
+        "name": "Brewing Brothers Ltd",
+        "address": "Queens Road",
+        "city": "Hastings",
+        "country": "England",
+        "phone": "7985505810",
+        "website_url": "https://brewingbrothers.org/",
+        "image": "img/BB_logo_HQ_Ring_Blue_copy.webp",
+        "street": "Queens Road"
+    },
+    {
+        "id": "e3029b7a-f730-4cda-bb4d-d6b31720386a",
+        "name": "Fyne Ales",
+        "address": "Achadunan",
+        "city": "Cairndow",
+        "country": "Scotland",
+        "phone": "1499600120",
+        "website_url": "https://www.fyneales.com/",
+        "image": "img/logo-fyneales-tab.svg",
+        "street": "Achadunan"
+    },
+    {
+        "id": "04e9e7ce-5f20-4861-acbe-ac4be5628b49",
+        "name": "Loch Lomond Brewery",
+        "address": "Block 2 Unit 11",
+        "city": "Dumbarton",
+        "country": "Scotland",
+        "phone": "1389755698",
+        "website_url": "https://www.lochlomondbrewery.com/",
+        "image": "img/lochlomond.avif",
+        "street": "Block 2 Unit 11"
+    },
+    {
+        "id": "58bc0ff5-5ada-4b37-a5c0-325746773116",
+        "name": "Oban Bay",
+        "address": "60 George Street",
+        "city": "Oban",
+        "country": "Scotland",
+        "phone": "1631564492",
+        "website_url": "http://obanbaybrewery.co.uk/",
+        "image": "img/obanbay.png",
+        "street": "60 George Street"
+    },
+    {
+        "id": "16fb2c6e-c7e1-4d46-b9d0-1c86816eb129",
+        "name": "Die Bierbotschaft",
+        "address": "Ponigler Str. 52",
+        "city": "Wundschuh",
+        "country": "Austria",
+        "phone": "+436763530560",
+        "website_url": "https://www.bierbotschaft.at",
+        "image": "img/Bierbotschaft_3.0[53]-4-440x440.webp",
+        "street": "Ponigler Str. 52"
+    },
+    {
+        "id": "fcd9312c-7531-4801-b481-52f4267cf628",
+        "name": "Gösser Brauerei (Heineken)",
+        "address": "Brauhausgasse 1",
+        "city": "Leoben",
+        "country": "Austria",
+        "phone": "+438102069791",
+        "website_url": "https://www.goesser.at",
+        "image": "img/goesser-logo.svg",
+        "street": "Brauhausgasse 1"
+    },
+    {
+        "id": "524ab865-1df1-4655-b19f-0eb427cfa0d6",
+        "name": "Murauer Brauerei",
+        "address": "Raffaltpl. 19",
+        "city": "Murau",
+        "country": "Austria",
+        "phone": "+43353232660",
+        "website_url": "https://www.murauerbier.at",
+        "image": "img/muraurer-logo.png",
+        "street": "Raffaltpl. 19"
+    },
+    {
+        "id": "56758247-521c-4219-afa2-0665c48c50ef",
+        "name": "Puntigamer Brauerei (Heineken)",
+        "address": "Triester Str. 361",
+        "city": "Graz",
+        "country": "Austria",
+        "phone": "+4331629710013",
+        "website_url": "https://www.puntigamer.at",
+        "image": "img/puntigamer.png",
+        "street": "Triester Str. 361"
+    },
+    {
+        "id": "eb82907e-7f0d-4453-b07e-4e00763e1cf6",
+        "name": "Schladminger Brauerei (Heineken)",
+        "address": "Hammerfeldweg 163",
+        "city": "Schladming",
+        "country": "Austria",
+        "phone": "+433687225910",
+        "website_url": "https://www.schladmingerbier.at",
+        "image": "img/logo-schladminger.svg",
+        "street": "Hammerfeldweg 163"
+    }
+]
