@@ -76,15 +76,15 @@ body {
 
     #navbar #nav-bar {
         position: absolute;
-        top: 100%;
+        top: 80%;
         right: -100%;
         background-color: white;
-        width: 250px;
+        width: 300px;
         height: 100vh;
+        border-left: #33333399 1px solid;
         transition: right 0.3s ease;
         flex-direction: column;
         align-items: flex-start;
-        padding-top: 60px;
     }
 
     #navbar #nav-bar.active {
@@ -92,14 +92,17 @@ body {
     }
 
     #nav-bar li {
+        display: flex;
         width: 100%;
-        margin: 10px 0;
+        margin: 0 0;
+        padding: 0 15px;
+        border-bottom: #7d7979b3 1px solid;
     }
 
     #nav-bar a {
         color: #FA812F;
         margin-left: 30px;
-        padding: 15px;
+        padding: 10px;
         font-size: 18px;
         text-align: left;
     }
@@ -186,6 +189,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     margin-bottom: 50px;
 }
 
@@ -205,6 +209,7 @@ body {
     display: inline-block;
     width: 300px;
     height: auto;
+    padding: 15px;
     text-align: center;
     margin: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -215,7 +220,6 @@ body {
 
 .items-gird img {
     width: 100%;
-    height: 250px;
     object-fit: cover;
 }
 
